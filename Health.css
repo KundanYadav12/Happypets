@@ -1,5 +1,5 @@
 body {
-    background-color: lightcoral; /* Light red background color */
+    background-color: lightcoral;  
     font-family: Arial, sans-serif;
   }
 
@@ -9,8 +9,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #ffdbfb;
-    /* gap:30px; */
-
+    
 }
 
   
@@ -28,8 +27,6 @@ body {
     padding: 20px;
  
   }
-
-
 
    .pets-page{
     background-color: #ffdbfb;
@@ -53,7 +50,6 @@ body {
     text-align: center;
     flex: 0 0 auto; /* Prevent cards from shrinking */
     width: 220px; /* Adjust width as needed */
-    /*height: 250px; /* Adjust height as needed */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -61,10 +57,9 @@ body {
   }
   
   .icon-img {
-    /* width: 100px;
-    height: 100px; */
+    
     object-fit: cover;
-    /* margin-bottom: 10px; */
+    
   }
   
   p {
@@ -73,8 +68,6 @@ body {
     font-weight: bold;
   }
   
-
-
 
   .health-para{
     display: flex;
@@ -111,12 +104,9 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* gap:40px; */
+    
      
 }
-
 
 
 .health-paws{
@@ -130,7 +120,6 @@ body {
 .health-pawstext{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: start;
     gap:50px;
     padding:40px;
