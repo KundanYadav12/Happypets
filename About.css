@@ -1,0 +1,101 @@
+ 
+
+
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./image/puppygroup.png");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    color:white;
+    font-size: 60px;
+}
+
+.aboutus h1{
+    /* font-family: "Roboto Mono", monospace; */
+    font-size: 120px;
+    font-family: "Karla", sans-serif;
+}
+
+.aboutus-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 123, 123);
+    padding: 40px;
+    gap: 20px;
+}
+
+.aboutus-page2 h1{
+    font-family: "Caveat", cursive;
+    font-size: 70px;
+}
+
+.aboutus-page22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+    padding: 20px;
+}
+
+.aboutus-page22.reverse {
+    flex-direction: row-reverse;
+}
+
+.aboutus-page23 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+.aboutus-page23 h2{
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+}
+
+.circle-image {
+    position: absolute;
+    /* left: 10%; */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: auto;
+    z-index: 1;
+}
+
+.main-image {
+    position: relative;
+     /* width: 50%;  */
+    height: auto; 
+    z-index: 2;
+}
+
+.aboutus-bottom {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    background-color: antiquewhite;
+    background-image: url("./image/background1.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap:70px;
+}
