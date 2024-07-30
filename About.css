@@ -1,7 +1,4 @@
  
-
-
-
 .aboutus {
     display: flex;
     flex-direction: column;
@@ -18,7 +15,6 @@
 }
 
 .aboutus h1{
-    /* font-family: "Roboto Mono", monospace; */
     font-size: 120px;
     font-family: "Karla", sans-serif;
 }
@@ -72,7 +68,6 @@
 
 .circle-image {
     position: absolute;
-    /* left: 10%; */
     top: 50%;
     transform: translateY(-50%);
     width: 70%;
@@ -82,7 +77,6 @@
 
 .main-image {
     position: relative;
-     /* width: 50%;  */
     height: auto; 
     z-index: 2;
 }
